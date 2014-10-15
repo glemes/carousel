@@ -13,6 +13,7 @@
 		151CE32519EE1BD9009B1B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151CE32419EE1BD9009B1B9C /* Images.xcassets */; };
 		151CE32819EE1BD9009B1B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151CE32619EE1BD9009B1B9C /* LaunchScreen.xib */; };
 		151CE33419EE1BD9009B1B9C /* carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CE33319EE1BD9009B1B9C /* carouselTests.swift */; };
+		151CE33E19EE1E3F009B1B9C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		151CE32D19EE1BD9009B1B9C /* carouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151CE33219EE1BD9009B1B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151CE33319EE1BD9009B1B9C /* carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselTests.swift; sourceTree = "<group>"; };
+		151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				151CE31D19EE1BD9009B1B9C /* AppDelegate.swift */,
 				151CE31F19EE1BD9009B1B9C /* ViewController.swift */,
 				151CE32119EE1BD9009B1B9C /* Main.storyboard */,
+				151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */,
 				151CE32419EE1BD9009B1B9C /* Images.xcassets */,
 				151CE32619EE1BD9009B1B9C /* LaunchScreen.xib */,
 				151CE31B19EE1BD9009B1B9C /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151CE33E19EE1E3F009B1B9C /* IntroViewController.swift in Sources */,
 				151CE32019EE1BD9009B1B9C /* ViewController.swift in Sources */,
 				151CE31E19EE1BD9009B1B9C /* AppDelegate.swift in Sources */,
 			);

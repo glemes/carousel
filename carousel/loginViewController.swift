@@ -14,7 +14,7 @@ class loginViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var inputsView: UIView!
+    @IBOutlet weak var shiftView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

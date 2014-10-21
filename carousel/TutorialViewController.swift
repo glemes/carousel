@@ -35,6 +35,7 @@ class TutorialViewController: UIViewController,UIScrollViewDelegate {
             UIView.animateWithDuration(0.4, animations: {
                 
                 self.imageView.alpha = 1
+                self.pageControl.alpha = 0
             })
     }
     }

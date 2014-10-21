@@ -9,7 +9,7 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
     @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,10 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func onDismiss(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -28,4 +28,4 @@ Time Spent: 7.5 hours total.
       * [x] User can log out
 
 
-![WalkThrough](Carousel.gif)
+![WalkThrough](carousel.gif)

@@ -39,8 +39,6 @@ class loginViewController: UIViewController {
        
     }
     @IBAction func signIn(sender: AnyObject) {
-        
-
         activityIndicator.startAnimating()
         // Delay for 2 seconds, then run the code between the braces.
         delay(2) {

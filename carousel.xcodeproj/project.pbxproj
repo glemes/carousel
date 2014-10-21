@@ -14,6 +14,9 @@
 		151CE32819EE1BD9009B1B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151CE32619EE1BD9009B1B9C /* LaunchScreen.xib */; };
 		151CE33419EE1BD9009B1B9C /* carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CE33319EE1BD9009B1B9C /* carouselTests.swift */; };
 		151CE33E19EE1E3F009B1B9C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */; };
+		153C628919F5F38B004BDAEC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C628819F5F38B004BDAEC /* TutorialViewController.swift */; };
+		153C628B19F5FEE8004BDAEC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C628A19F5FEE8004BDAEC /* FeedViewController.swift */; };
+		153C628D19F603D7004BDAEC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C628C19F603D7004BDAEC /* ConversationsViewController.swift */; };
 		158DA97719F5E63B0005889A /* DelayFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DA97619F5E63B0005889A /* DelayFunction.swift */; };
 		15AB6F4919F5DD09009695AB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB6F4819F5DD09009695AB /* loginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		151CE33219EE1BD9009B1B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151CE33319EE1BD9009B1B9C /* carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselTests.swift; sourceTree = "<group>"; };
 		151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		153C628819F5F38B004BDAEC /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		153C628A19F5FEE8004BDAEC /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		153C628C19F603D7004BDAEC /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		158DA97619F5E63B0005889A /* DelayFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayFunction.swift; sourceTree = "<group>"; };
 		15AB6F4819F5DD09009695AB /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +92,9 @@
 				151CE31D19EE1BD9009B1B9C /* AppDelegate.swift */,
 				151CE31F19EE1BD9009B1B9C /* ViewController.swift */,
 				151CE32119EE1BD9009B1B9C /* Main.storyboard */,
+				153C628819F5F38B004BDAEC /* TutorialViewController.swift */,
+				153C628A19F5FEE8004BDAEC /* FeedViewController.swift */,
+				153C628C19F603D7004BDAEC /* ConversationsViewController.swift */,
 				158DA97619F5E63B0005889A /* DelayFunction.swift */,
 				15AB6F4819F5DD09009695AB /* loginViewController.swift */,
 				151CE33D19EE1E3F009B1B9C /* IntroViewController.swift */,
@@ -224,8 +233,11 @@
 				15AB6F4919F5DD09009695AB /* loginViewController.swift in Sources */,
 				151CE33E19EE1E3F009B1B9C /* IntroViewController.swift in Sources */,
 				151CE32019EE1BD9009B1B9C /* ViewController.swift in Sources */,
+				153C628D19F603D7004BDAEC /* ConversationsViewController.swift in Sources */,
 				158DA97719F5E63B0005889A /* DelayFunction.swift in Sources */,
+				153C628919F5F38B004BDAEC /* TutorialViewController.swift in Sources */,
 				151CE31E19EE1BD9009B1B9C /* AppDelegate.swift in Sources */,
+				153C628B19F5FEE8004BDAEC /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
